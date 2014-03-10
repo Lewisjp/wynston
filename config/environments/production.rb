@@ -66,5 +66,5 @@ Wynston::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   #RECONFIGURE MAILER BEFORE PUSHING TO PRODUCTION
-  config.action_mailer.default_url_options = { :host => INSERT_HOST_URL_HERE }
+  config.action_mailer.default_url_options = { :host => "http://peaceful-woodland-6263.herokuapp.com/" }
 end
