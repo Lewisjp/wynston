@@ -30,8 +30,6 @@ end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'debugger'
-
   gem 'uglifier', '>= 1.0.3'
 
 
@@ -53,5 +51,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
   group :production do
 # Deploy with Capistrano
     gem 'capistrano'
+    gem 'rails_12factor'
     gem 'pg'
   end
