@@ -60,7 +60,7 @@ module Wynston
     config.assets.version = '1.0'
 
     #suggested by gem devise
-    config.assets.initialize_on_precompile = false
+    config.assets.initialize_on_precompile = true
 
     # LOAD DEVELOPMENT ENVIRONMENT VARIABLES
     if Rails.env.development?
