@@ -9,11 +9,11 @@ class EnrollmentsController < ApplicationController
 		
 	end 
 
-	def call_completed_course
-	    new_val = certification? false : true
-	    self.update_attributes(:certification => new_val)
-	    # if that alone will trigger your private method, you're done, or:
-	    self.private_completed_course
+	# def call_completed_course
+	#     new_val = certification? false : true
+	#     self.update_attributes(:certification => new_val)
+	#     # if that alone will trigger your private method, you're done, or:
+	#     self.private_completed_course
 	end
 
 end
